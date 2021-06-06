@@ -1,0 +1,14 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestAll">
+    <listeners>
+        <listener class-name="components.CustomListener"/>
+    </listeners>
+    <test name="LoginTest">
+        <classes>
+            <class name="com.qa.testcase.Login" />
+            <class name="com.qa.testcase.LoanCreation" />
+        </classes>
+    </test>
+</suite>

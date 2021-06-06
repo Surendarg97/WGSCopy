@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestAll" duration-ms="96306" started-at="2021-06-04T05:07:08Z" finished-at="2021-06-04T05:08:45Z">
+    <groups>
+    </groups>
+    <test name="LoginTest" duration-ms="96306" started-at="2021-06-04T05:07:08Z" finished-at="2021-06-04T05:08:45Z">
+      <class name="com.qa.testcase.LoanCreation">
+        <test-method status="PASS" signature="createRetailLoan(java.lang.String)[pri:0, instance:com.qa.testcase.LoanCreation@90f6bfd]" name="createRetailLoan" duration-ms="43047" started-at="2021-06-04T05:08:02Z" data-provider="createLoan" finished-at="2021-06-04T05:08:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Retail Loan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createRetailLoan -->
+        <test-method status="PASS" signature="createExtentTestNode(java.lang.reflect.Method)[pri:0, instance:com.qa.testcase.LoanCreation@90f6bfd]" name="createExtentTestNode" is-config="true" duration-ms="0" started-at="2021-06-04T05:08:02Z" finished-at="2021-06-04T05:08:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.testcase.LoanCreation.createRetailLoan(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createExtentTestNode -->
+        <test-method status="PASS" signature="flushingExtentReport()[pri:0, instance:com.qa.testcase.LoanCreation@90f6bfd]" name="flushingExtentReport" is-config="true" duration-ms="40" started-at="2021-06-04T05:08:45Z" finished-at="2021-06-04T05:08:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushingExtentReport -->
+      </class> <!-- com.qa.testcase.LoanCreation -->
+      <class name="com.qa.testcase.Login">
+        <test-method status="PASS" signature="initDriver()[pri:0, instance:com.qa.testcase.Login@4157f54e]" name="initDriver" is-config="true" duration-ms="33147" started-at="2021-06-04T05:07:08Z" finished-at="2021-06-04T05:07:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="createExtentTestNode(java.lang.reflect.Method)[pri:0, instance:com.qa.testcase.Login@4157f54e]" name="createExtentTestNode" is-config="true" duration-ms="62" started-at="2021-06-04T05:07:47Z" finished-at="2021-06-04T05:07:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.testcase.Login.login(java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createExtentTestNode -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcase.Login@4157f54e]" name="login" duration-ms="13180" started-at="2021-06-04T05:07:47Z" data-provider="loginDetails" finished-at="2021-06-04T05:08:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[$loanadmin@wesley]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gallagher01!]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Loan Administrator]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="flushingExtentReport()[pri:0, instance:com.qa.testcase.Login@4157f54e]" name="flushingExtentReport" is-config="true" duration-ms="840" started-at="2021-06-04T05:08:01Z" finished-at="2021-06-04T05:08:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushingExtentReport -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.qa.testcase.Login@4157f54e]" name="quitDriver" is-config="true" duration-ms="844" started-at="2021-06-04T05:08:45Z" finished-at="2021-06-04T05:08:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.qa.testcase.Login -->
+    </test> <!-- LoginTest -->
+  </suite> <!-- TestAll -->
+</testng-results>
