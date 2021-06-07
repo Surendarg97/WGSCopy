@@ -34,7 +34,8 @@ public class Base {
         driver.get(url);
         setDriver(driver);
         getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        wait=new WebDriverWait(getDriver(),10);
+        getDriver().manage().timeouts().pageLoadTimeout(15,TimeUnit.SECONDS);
+        wait=new WebDriverWait(getDriver(),15);
         ReportManager.extentAttachReport();
     }
 

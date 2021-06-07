@@ -36,7 +36,8 @@ public class DashBoardPage extends Base {
         CommonFunctions.swithToParentFrame(gFXLoanSelectorFrame);
     }
 
-    public void createRetailLoan(String loanType){
+    public void createRetailLoan(String loanType) throws InterruptedException {
+        Thread.sleep(10000);
         CommonFunctions.click(createNewLoanButton);
         CommonFunctions.swithToInsideFrame(userDashboardCreateLoanFrame);
         CommonFunctions.waitTiming(selectAType);

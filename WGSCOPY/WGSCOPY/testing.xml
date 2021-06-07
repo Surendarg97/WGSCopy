@@ -9,6 +9,7 @@
         <classes>
             <class name="com.qa.testcase.Login" />
             <class name="com.qa.testcase.LoanCreation" />
+            <class name="com.qa.testcase.TaskRelatedAction" />
         </classes>
     </test>
 </suite>

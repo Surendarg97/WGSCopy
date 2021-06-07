@@ -101,3 +101,76 @@
 08:20:38.471 ERROR c.q.t.LoanCreation [main] - Create button is clicked and retail loan is selected
 08:20:58.235 INFO c.q.t.LoanCreation [main] - Originate Loan resolution is selected
 08:21:09.233 INFO c.q.t.LoanCreation [main] - Leadmanagement completed
+17:49:58.694 WARN c.q.t.Login [main] - username entered as $loanadmin@wesley
+17:49:59.055 DEBUG c.q.t.Login [main] - password entered as Gallagher01!
+17:49:59.399 FATAL c.q.t.Login [main] - login button clicked
+17:50:09.402 ERROR c.q.t.Login [main] - login successfull
+17:55:18.942 WARN c.q.t.Login [main] - username entered as $loanadmin@wesley
+17:55:19.403 DEBUG c.q.t.Login [main] - password entered as Gallagher01!
+17:55:19.755 FATAL c.q.t.Login [main] - login button clicked
+17:55:23.215 ERROR c.q.t.Login [main] - login successfull
+17:55:44.738 ERROR c.q.t.LoanCreation [main] - Create button is clicked and retail loan is selected
+17:59:09.975 WARN c.q.t.Login [main] - username entered as $loanadmin@wesley
+17:59:10.290 DEBUG c.q.t.Login [main] - password entered as Gallagher01!
+17:59:10.624 FATAL c.q.t.Login [main] - login button clicked
+17:59:21.989 ERROR c.q.t.Login [main] - login successfull
+18:07:22.914 WARN c.q.t.Login [main] - username entered as $loanadmin@wesley
+18:07:23.263 DEBUG c.q.t.Login [main] - password entered as Gallagher01!
+18:07:23.606 FATAL c.q.t.Login [main] - login button clicked
+18:07:26.835 ERROR c.q.t.Login [main] - login successfull
+08:37:54.545 WARN c.q.t.Login [main] - username entered as $loanadmin@wesley
+08:37:54.944 DEBUG c.q.t.Login [main] - password entered as Gallagher01!
+08:37:55.307 FATAL c.q.t.Login [main] - login button clicked
+08:37:58.656 ERROR c.q.t.Login [main] - login successfull
+08:38:19.567 ERROR c.q.t.LoanCreation [main] - Create button is clicked and retail loan is selected
+08:38:40.889 INFO c.q.t.LoanCreation [main] - Originate Loan resolution is selected
+08:38:49.320 INFO c.q.t.LoanCreation [main] - Leadmanagement completed
+08:55:09.947 WARN c.q.t.Login [main] - username entered as $loanadmin@wesley
+08:55:10.378 DEBUG c.q.t.Login [main] - password entered as Gallagher01!
+08:55:10.665 FATAL c.q.t.Login [main] - login button clicked
+08:55:20.481 ERROR c.q.t.Login [main] - login successfull
+08:55:56.698 ERROR c.q.t.LoanCreation [main] - Create button is clicked and retail loan is selected
+08:56:38.815 INFO c.q.t.LoanCreation [main] - Originate Loan resolution is selected
+08:56:48.030 INFO c.q.t.LoanCreation [main] - Leadmanagement completed
+06-07-2021-09:27:25.366 WARN c.q.t.Login [main] - username entered as $loanadmin@wesley
+06-07-2021-09:27:25.696 DEBUG c.q.t.Login [main] - password entered as Gallagher01!
+06-07-2021-09:27:25.945 FATAL c.q.t.Login [main] - login button clicked
+06-07-2021-09:27:28.483 ERROR c.q.t.Login [main] - login successfull
+06-07-2021-09:27:50.301 ERROR c.q.t.LoanCreation [main] - Create button is clicked and retail loan is selected
+06-07-2021-09:28:06.212 INFO c.q.t.LoanCreation [main] - Originate Loan resolution is selected
+06-07-2021-09:28:11.192 INFO c.q.t.LoanCreation [main] - Leadmanagement completed
+06-07-2021-10:17:33.560 WARN c.q.t.Login [main] - username entered as $loanadmin@wesley
+06-07-2021-10:17:33.777 DEBUG c.q.t.Login [main] - password entered as Gallagher01!
+06-07-2021-10:17:34.033 FATAL c.q.t.Login [main] - login button clicked
+06-07-2021-10:17:37.151 ERROR c.q.t.Login [main] - login successfull
+06-07-2021-10:17:52.746 ERROR c.q.t.LoanCreation [main] - Create button is clicked and retail loan is selected
+06-07-2021-10:18:08.474 INFO c.q.t.LoanCreation [main] - Originate Loan resolution is selected
+06-07-2021-10:18:18.087 INFO c.q.t.LoanCreation [main] - Leadmanagement completed
+06-07-2021-10:21:01.268 WARN c.q.t.Login [main] - username entered as $loanadmin@wesley
+06-07-2021-10:21:01.486 DEBUG c.q.t.Login [main] - password entered as Gallagher01!
+06-07-2021-10:21:01.746 FATAL c.q.t.Login [main] - login button clicked
+06-07-2021-10:21:04.432 ERROR c.q.t.Login [main] - login successfull
+06-07-2021-10:21:24.684 ERROR c.q.t.LoanCreation [main] - Create button is clicked and retail loan is selected
+06-07-2021-10:21:40.847 INFO c.q.t.LoanCreation [main] - Originate Loan resolution is selected
+06-07-2021-10:21:47.803 INFO c.q.t.LoanCreation [main] - Leadmanagement completed
+06-07-2021-10:23:28.500 WARN c.q.t.Login [main] - username entered as $loanadmin@wesley
+06-07-2021-10:23:28.844 DEBUG c.q.t.Login [main] - password entered as Gallagher01!
+06-07-2021-10:23:29.156 FATAL c.q.t.Login [main] - login button clicked
+06-07-2021-10:23:38.951 ERROR c.q.t.Login [main] - login successfull
+06-07-2021-10:24:15.269 ERROR c.q.t.LoanCreation [main] - Create button is clicked and retail loan is selected
+06-07-2021-10:24:51.276 INFO c.q.t.LoanCreation [main] - Originate Loan resolution is selected
+06-07-2021-10:25:03.768 INFO c.q.t.LoanCreation [main] - Leadmanagement completed
+06-07-2021-10:26:59.851 WARN c.q.t.Login [main] - username entered as $loanadmin@wesley
+06-07-2021-10:27:00.167 DEBUG c.q.t.Login [main] - password entered as Gallagher01!
+06-07-2021-10:27:00.460 FATAL c.q.t.Login [main] - login button clicked
+06-07-2021-10:27:03.070 ERROR c.q.t.Login [main] - login successfull
+06-07-2021-10:27:23.201 ERROR c.q.t.LoanCreation [main] - Create button is clicked and retail loan is selected
+06-07-2021-10:27:39.028 INFO c.q.t.LoanCreation [main] - Originate Loan resolution is selected
+06-07-2021-10:27:49.641 INFO c.q.t.LoanCreation [main] - Leadmanagement completed
+06-07-2021-10:31:55.820 WARN c.q.t.Login [main] - username entered as $loanadmin@wesley
+06-07-2021-10:31:56.155 DEBUG c.q.t.Login [main] - password entered as Gallagher01!
+06-07-2021-10:31:56.455 FATAL c.q.t.Login [main] - login button clicked
+06-07-2021-10:31:58.765 ERROR c.q.t.Login [main] - login successfull
+06-07-2021-10:32:13.227 ERROR c.q.t.LoanCreation [main] - Create button is clicked and retail loan is selected
+06-07-2021-10:32:29.238 INFO c.q.t.LoanCreation [main] - Originate Loan resolution is selected
+06-07-2021-10:32:39.861 INFO c.q.t.LoanCreation [main] - Leadmanagement completed

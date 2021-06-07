@@ -27,6 +27,7 @@ public class LoanCreation extends Base {
         leadManagementPage.selectResolution(resolutionValue);
         ReportManager.extentTestNode.info(resolutionValue +" resolution is selected");
         log.info(resolutionValue +" resolution is selected");
+        Thread.sleep(10000);
         leadManagementPage.completeWorkFlow("Leadmanagement completed");
         ReportManager.extentTestNode.pass("Leadmanagement completed");
         log.info("Leadmanagement completed");
