@@ -15,9 +15,13 @@ public class TaskRelatedAction extends Base {
         TaskPage taskPage=new TaskPage(getDriver());
         Logger log= LogManager.getLogger(this.getClass().getName());
 
-        taskPage.selectWorkBench("Loan Application");
+        taskPage.selectWorkBench("Loan Overview");
+        /*CommonFunctions.swithToParentFrame(getDriver().findElement(By.id("GFXTaskFrame")));
+        getDriver().findElement(By.xpath("//table[@id='taskTable']//tr/td[@screenname='Loan Overview']")).click();*/
         log.info("Loan application workbench is selected");
         ReportManager.extentTestNode.info("Loan application workbench is selected");
+        Thread.sleep(10000);
+        taskPage.selectURLAFormTab("Liabilities");
 
     }
 }

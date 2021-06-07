@@ -8,7 +8,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class TaskPage extends Base {
@@ -17,27 +19,42 @@ public class TaskPage extends Base {
         PageFactory.initElements(driver,this);
     }
 
-    public List<String> workBenchList=getWorkBenchList();
+    public List<String> workBenchList=new ArrayList<>();
+    public List<String> URLAFormList=new ArrayList<>();
 
     @FindBy(how= How.XPATH, using="//table[@id='taskTable']//tr/td")
-    private List<WebElement> workBenchListXpath;
+    public List<WebElement> workBenchListXpath;
 
 
     @FindBy(how=How.ID,using="GFXTaskFrame")
     private WebElement GFXTaskFrame;
 
+
+    @FindBy(how=How.ID,using="GFXDHPageFrame")
+    private WebElement GFXDHPageFrame;
+
+    @FindBy(how=How.ID,using="dlgLoanApp")
+    private WebElement dlgLoanApp;
+
+    @FindBy(how=How.XPATH,using="//ul[@id='mainNavFrame']/li/input")
+    private List<WebElement> URLAFormTabsList;
+
+
+
+
     public List<String> getWorkBenchList(){
         CommonFunctions.swithToParentFrame(GFXTaskFrame);
-        workBenchListXpath=getDriver().findElements(By.xpath("//table[@id='taskTable']//tr/td"));
+       for (int i=0;i<workBenchListXpath.size();i++) {
 
-        for (WebElement workBench:workBenchListXpath) {
-
-            workBenchList.add(workBench.getAttribute("screenname"));
+           wait.until(ExpectedConditions.refreshed(ExpectedConditions.stalenessOf(workBenchListXpath.get(i))));
+           workBenchList.add(workBenchListXpath.get(i).getAttribute("screenname"));
         }
+
         return workBenchList;
     }
 
     public void selectWorkBench(String workBenchName){
+        getWorkBenchList();
 
         for(int i=0;i<workBenchList.size();i++){
 
@@ -50,4 +67,37 @@ public class TaskPage extends Base {
             }
         }
     }
+
+    public List<String> getURLAFormList(){
+        CommonFunctions.swithToParentFrame(GFXTaskFrame);
+        CommonFunctions.swithToInsideFrame(GFXDHPageFrame);
+        CommonFunctions.swithToInsideFrame(dlgLoanApp);
+
+        for (WebElement URLAFormTab:URLAFormTabsList) {
+
+            URLAFormTabsList=getDriver().findElements(By.xpath("//ul[@id='mainNavFrame']/li/input"));
+
+            URLAFormList.add(URLAFormTab.getAttribute("value"));
+        }
+
+        return URLAFormList;
+    }
+
+
+    public void selectURLAFormTab(String URLAFormTab){
+        getURLAFormList();
+
+        for(int i=0;i<URLAFormList.size();i++){
+
+            if(URLAFormList.get(i).equalsIgnoreCase(URLAFormTab)){
+
+
+                getDriver().findElement(By.xpath("//table[@id='taskTable']//tr/td[@value='"+URLAFormTab+"']")).click();
+
+
+            }
+        }
+    }
+
+
 }
