@@ -8,7 +8,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,6 +23,7 @@ public class TaskPage extends Base {
 
     @FindBy(how= How.XPATH, using="//table[@id='taskTable']//tr/td")
     public List<WebElement> workBenchListXpath;
+
 
 
     @FindBy(how=How.ID,using="GFXTaskFrame")
@@ -44,9 +44,9 @@ public class TaskPage extends Base {
 
     public List<String> getWorkBenchList(){
         CommonFunctions.swithToParentFrame(GFXTaskFrame);
+        System.out.println(workBenchListXpath);
        for (int i=0;i<workBenchListXpath.size();i++) {
 
-           wait.until(ExpectedConditions.refreshed(ExpectedConditions.stalenessOf(workBenchListXpath.get(i))));
            workBenchList.add(workBenchListXpath.get(i).getAttribute("screenname"));
         }
 
@@ -54,6 +54,7 @@ public class TaskPage extends Base {
     }
 
     public void selectWorkBench(String workBenchName){
+
         getWorkBenchList();
 
         for(int i=0;i<workBenchList.size();i++){
@@ -84,17 +85,19 @@ public class TaskPage extends Base {
     }
 
 
-    public void selectURLAFormTab(String URLAFormTab){
+    public void selectURLAFormTab(String URLAFormTab,String URLAFormTabSection){
         getURLAFormList();
 
         for(int i=0;i<URLAFormList.size();i++){
 
             if(URLAFormList.get(i).equalsIgnoreCase(URLAFormTab)){
 
+                getDriver().findElement(By.xpath("//ul[@id='mainNavFrame']/li/input[@value='"+URLAFormTab+"']")).click();
 
-                getDriver().findElement(By.xpath("//table[@id='taskTable']//tr/td[@value='"+URLAFormTab+"']")).click();
+                if(!URLAFormTabSection.equalsIgnoreCase("")) {
+                    getDriver().findElement(By.xpath("//ul[@id='mainNavFrame']/li/input[@value='" + URLAFormTab + "']/parent::li//li/input[@value='" + URLAFormTabSection + "']")).click();
 
-
+                }
             }
         }
     }

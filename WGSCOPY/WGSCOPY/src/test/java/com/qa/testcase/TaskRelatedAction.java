@@ -13,15 +13,16 @@ public class TaskRelatedAction extends Base {
     public void selectWorkBench() throws InterruptedException {
         Thread.sleep(15000);
         TaskPage taskPage=new TaskPage(getDriver());
+
         Logger log= LogManager.getLogger(this.getClass().getName());
 
-        taskPage.selectWorkBench("Loan Overview");
+        taskPage.selectWorkBench("Loan Application");
         /*CommonFunctions.swithToParentFrame(getDriver().findElement(By.id("GFXTaskFrame")));
         getDriver().findElement(By.xpath("//table[@id='taskTable']//tr/td[@screenname='Loan Overview']")).click();*/
         log.info("Loan application workbench is selected");
         ReportManager.extentTestNode.info("Loan application workbench is selected");
         Thread.sleep(10000);
-        taskPage.selectURLAFormTab("Liabilities");
+        taskPage.selectURLAFormTab("Mortgage Info","");
 
     }
 }
