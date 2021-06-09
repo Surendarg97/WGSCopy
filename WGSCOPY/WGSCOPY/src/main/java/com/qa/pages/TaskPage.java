@@ -96,7 +96,7 @@ public class TaskPage extends Base {
 
                 if(!URLAFormTabSection.equalsIgnoreCase("")) {
                     getDriver().findElement(By.xpath("//ul[@id='mainNavFrame']/li/input[@value='" + URLAFormTab + "']/parent::li//li/input[@value='" + URLAFormTabSection + "']")).click();
-
+                    CommonFunctions.moveCursorBySomePoint();
                 }
             }
         }

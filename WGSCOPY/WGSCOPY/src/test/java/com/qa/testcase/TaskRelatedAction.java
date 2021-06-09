@@ -22,7 +22,7 @@ public class TaskRelatedAction extends Base {
         log.info("Loan application workbench is selected");
         ReportManager.extentTestNode.info("Loan application workbench is selected");
         Thread.sleep(10000);
-        taskPage.selectURLAFormTab("Mortgage Info","");
+        taskPage.selectURLAFormTab("Borrower Info","Party Gateway");
 
     }
 }

@@ -349,3 +349,136 @@
 06-08-2021-10:19:39.134 INFO c.q.t.LoanCreation [main] - Originate Loan resolution is selected
 06-08-2021-10:19:49.728 INFO c.q.t.LoanCreation [main] - Leadmanagement completed
 06-08-2021-10:20:07.555 INFO c.q.t.TaskRelatedAction [main] - Loan application workbench is selected
+06-08-2021-22:29:04.201 WARN c.q.t.Login [main] - username entered as $loanadmin@wesley
+06-08-2021-22:29:04.529 DEBUG c.q.t.Login [main] - password entered as Gallagher01!
+06-08-2021-22:29:04.816 FATAL c.q.t.Login [main] - login button clicked
+06-08-2021-22:29:08.035 ERROR c.q.t.Login [main] - login successfull
+06-08-2021-22:29:25.413 ERROR c.q.t.LoanCreation [main] - Create button is clicked and retail loan is selected
+06-08-2021-22:29:41.452 INFO c.q.t.LoanCreation [main] - Originate Loan resolution is selected
+06-08-2021-22:29:52.124 INFO c.q.t.LoanCreation [main] - Leadmanagement completed
+06-08-2021-22:30:09.443 INFO c.q.t.TaskRelatedAction [main] - Loan application workbench is selected
+06-08-2021-22:44:33.566 WARN c.q.t.Login [main] - username entered as $loanadmin@wesley
+06-08-2021-22:44:33.854 DEBUG c.q.t.Login [main] - password entered as Gallagher01!
+06-08-2021-22:44:34.124 FATAL c.q.t.Login [main] - login button clicked
+06-08-2021-22:44:36.608 ERROR c.q.t.Login [main] - login successfull
+06-08-2021-22:44:51.760 ERROR c.q.t.LoanCreation [main] - Create button is clicked and retail loan is selected
+06-08-2021-22:45:07.775 INFO c.q.t.LoanCreation [main] - Originate Loan resolution is selected
+06-08-2021-22:45:18.334 INFO c.q.t.LoanCreation [main] - Leadmanagement completed
+06-08-2021-22:45:33.772 INFO c.q.t.TaskRelatedAction [main] - Loan application workbench is selected
+06-08-2021-22:46:44.075 WARN c.q.t.Login [main] - username entered as $loanadmin@wesley
+06-08-2021-22:46:44.319 DEBUG c.q.t.Login [main] - password entered as Gallagher01!
+06-08-2021-22:46:44.592 FATAL c.q.t.Login [main] - login button clicked
+06-08-2021-22:46:53.553 ERROR c.q.t.Login [main] - login successfull
+06-08-2021-22:47:26.894 ERROR c.q.t.LoanCreation [main] - Create button is clicked and retail loan is selected
+06-08-2021-22:48:00.308 INFO c.q.t.LoanCreation [main] - Originate Loan resolution is selected
+06-08-2021-22:48:10.985 INFO c.q.t.LoanCreation [main] - Leadmanagement completed
+06-08-2021-22:48:27.638 INFO c.q.t.TaskRelatedAction [main] - Loan application workbench is selected
+06-08-2021-22:52:05.215 WARN c.q.t.Login [main] - username entered as $loanadmin@wesley
+06-08-2021-22:52:05.438 DEBUG c.q.t.Login [main] - password entered as Gallagher01!
+06-08-2021-22:52:05.684 FATAL c.q.t.Login [main] - login button clicked
+06-08-2021-22:52:08.075 ERROR c.q.t.Login [main] - login successfull
+06-08-2021-22:52:27.701 ERROR c.q.t.LoanCreation [main] - Create button is clicked and retail loan is selected
+06-08-2021-22:52:43.521 INFO c.q.t.LoanCreation [main] - Originate Loan resolution is selected
+06-08-2021-22:52:54.160 INFO c.q.t.LoanCreation [main] - Leadmanagement completed
+06-08-2021-22:53:11.878 INFO c.q.t.TaskRelatedAction [main] - Loan application workbench is selected
+06-09-2021-08:00:23.023 WARN c.q.t.Login [main] - username entered as $loanadmin@wesley
+06-09-2021-08:00:23.399 DEBUG c.q.t.Login [main] - password entered as Gallagher01!
+06-09-2021-08:00:23.701 FATAL c.q.t.Login [main] - login button clicked
+06-09-2021-08:00:39.646 ERROR c.q.t.Login [main] - login successfull
+06-09-2021-08:01:08.920 ERROR c.q.t.LoanCreation [main] - Create button is clicked and retail loan is selected
+06-09-2021-08:02:38.737 WARN c.q.t.Login [main] - username entered as $loanadmin@wesley
+06-09-2021-08:02:38.953 DEBUG c.q.t.Login [main] - password entered as Gallagher01!
+06-09-2021-08:02:39.197 FATAL c.q.t.Login [main] - login button clicked
+06-09-2021-08:02:48.573 ERROR c.q.t.Login [main] - login successfull
+06-09-2021-08:03:21.964 ERROR c.q.t.LoanCreation [main] - Create button is clicked and retail loan is selected
+06-09-2021-08:04:02.058 INFO c.q.t.LoanCreation [main] - Originate Loan resolution is selected
+06-09-2021-08:04:12.650 INFO c.q.t.LoanCreation [main] - Leadmanagement completed
+06-09-2021-08:04:30.185 INFO c.q.t.TaskRelatedAction [main] - Loan application workbench is selected
+06-09-2021-08:10:33.813 WARN c.q.t.Login [main] - username entered as $loanadmin@wesley
+06-09-2021-08:10:34.054 DEBUG c.q.t.Login [main] - password entered as Gallagher01!
+06-09-2021-08:10:34.353 FATAL c.q.t.Login [main] - login button clicked
+06-09-2021-08:10:37.035 ERROR c.q.t.Login [main] - login successfull
+06-09-2021-08:11:59.942 WARN c.q.t.Login [main] - username entered as $loanadmin@wesley
+06-09-2021-08:12:00.186 DEBUG c.q.t.Login [main] - password entered as Gallagher01!
+06-09-2021-08:12:00.429 FATAL c.q.t.Login [main] - login button clicked
+06-09-2021-08:12:03.190 ERROR c.q.t.Login [main] - login successfull
+06-09-2021-08:12:32.374 ERROR c.q.t.LoanCreation [main] - Create button is clicked and retail loan is selected
+06-09-2021-08:12:48.384 INFO c.q.t.LoanCreation [main] - Originate Loan resolution is selected
+06-09-2021-08:13:29.098 INFO c.q.t.TaskRelatedAction [main] - Loan application workbench is selected
+06-09-2021-08:14:35.876 WARN c.q.t.Login [main] - username entered as $loanadmin@wesley
+06-09-2021-08:14:36.238 DEBUG c.q.t.Login [main] - password entered as Gallagher01!
+06-09-2021-08:14:36.639 FATAL c.q.t.Login [main] - login button clicked
+06-09-2021-08:14:40.618 ERROR c.q.t.Login [main] - login successfull
+06-09-2021-08:15:02.673 ERROR c.q.t.LoanCreation [main] - Create button is clicked and retail loan is selected
+06-09-2021-08:15:19.451 INFO c.q.t.LoanCreation [main] - Originate Loan resolution is selected
+06-09-2021-08:15:44.560 INFO c.q.t.LoanCreation [main] - Leadmanagement completed
+06-09-2021-08:16:01.820 INFO c.q.t.TaskRelatedAction [main] - Loan application workbench is selected
+06-09-2021-08:23:58.244 WARN c.q.t.Login [main] - username entered as $loanadmin@wesley
+06-09-2021-08:23:58.581 DEBUG c.q.t.Login [main] - password entered as Gallagher01!
+06-09-2021-08:23:58.858 FATAL c.q.t.Login [main] - login button clicked
+06-09-2021-08:24:01.155 ERROR c.q.t.Login [main] - login successfull
+06-09-2021-08:24:19.175 ERROR c.q.t.LoanCreation [main] - Create button is clicked and retail loan is selected
+06-09-2021-08:24:35.008 INFO c.q.t.LoanCreation [main] - Originate Loan resolution is selected
+06-09-2021-08:24:45.563 INFO c.q.t.LoanCreation [main] - Leadmanagement completed
+06-09-2021-08:26:40.874 WARN c.q.t.Login [main] - username entered as $loanadmin@wesley
+06-09-2021-08:26:41.121 DEBUG c.q.t.Login [main] - password entered as Gallagher01!
+06-09-2021-08:26:41.392 FATAL c.q.t.Login [main] - login button clicked
+06-09-2021-08:26:44.084 ERROR c.q.t.Login [main] - login successfull
+06-09-2021-08:27:00.118 ERROR c.q.t.LoanCreation [main] - Create button is clicked and retail loan is selected
+06-09-2021-08:27:16.016 INFO c.q.t.LoanCreation [main] - Originate Loan resolution is selected
+06-09-2021-08:27:26.628 INFO c.q.t.LoanCreation [main] - Leadmanagement completed
+06-09-2021-08:27:44.499 INFO c.q.t.TaskRelatedAction [main] - Loan application workbench is selected
+06-09-2021-08:32:42.423 WARN c.q.t.Login [main] - username entered as $loanadmin@wesley
+06-09-2021-08:32:42.676 DEBUG c.q.t.Login [main] - password entered as Gallagher01!
+06-09-2021-08:32:42.947 FATAL c.q.t.Login [main] - login button clicked
+06-09-2021-08:32:46.194 ERROR c.q.t.Login [main] - login successfull
+06-09-2021-08:33:05.250 ERROR c.q.t.LoanCreation [main] - Create button is clicked and retail loan is selected
+06-09-2021-08:33:21.092 INFO c.q.t.LoanCreation [main] - Originate Loan resolution is selected
+06-09-2021-08:33:31.692 INFO c.q.t.LoanCreation [main] - Leadmanagement completed
+06-09-2021-08:33:49.237 INFO c.q.t.TaskRelatedAction [main] - Loan application workbench is selected
+06-09-2021-08:43:04.510 WARN c.q.t.Login [main] - username entered as $loanadmin@wesley
+06-09-2021-08:43:04.761 DEBUG c.q.t.Login [main] - password entered as Gallagher01!
+06-09-2021-08:43:05.027 FATAL c.q.t.Login [main] - login button clicked
+06-09-2021-08:43:07.377 ERROR c.q.t.Login [main] - login successfull
+06-09-2021-08:43:22.471 ERROR c.q.t.LoanCreation [main] - Create button is clicked and retail loan is selected
+06-09-2021-08:43:38.601 INFO c.q.t.LoanCreation [main] - Originate Loan resolution is selected
+06-09-2021-08:43:49.186 INFO c.q.t.LoanCreation [main] - Leadmanagement completed
+06-09-2021-08:44:07.007 INFO c.q.t.TaskRelatedAction [main] - Loan application workbench is selected
+06-09-2021-09:05:29.829 WARN c.q.t.Login [main] - username entered as $loanadmin@wesley
+06-09-2021-09:05:30.131 DEBUG c.q.t.Login [main] - password entered as Gallagher01!
+06-09-2021-09:05:30.433 FATAL c.q.t.Login [main] - login button clicked
+06-09-2021-09:05:33.514 ERROR c.q.t.Login [main] - login successfull
+06-09-2021-09:05:49.378 ERROR c.q.t.LoanCreation [main] - Create button is clicked and retail loan is selected
+06-09-2021-09:06:05.628 INFO c.q.t.LoanCreation [main] - Originate Loan resolution is selected
+06-09-2021-09:06:16.227 INFO c.q.t.LoanCreation [main] - Leadmanagement completed
+06-09-2021-09:06:33.727 INFO c.q.t.TaskRelatedAction [main] - Loan application workbench is selected
+06-09-2021-09:11:30.169 WARN c.q.t.Login [main] - username entered as $loanadmin@wesley
+06-09-2021-09:11:30.442 DEBUG c.q.t.Login [main] - password entered as Gallagher01!
+06-09-2021-09:11:30.733 FATAL c.q.t.Login [main] - login button clicked
+06-09-2021-09:11:39.801 ERROR c.q.t.Login [main] - login successfull
+06-09-2021-09:12:15.796 ERROR c.q.t.LoanCreation [main] - Create button is clicked and retail loan is selected
+06-09-2021-09:12:52.000 INFO c.q.t.LoanCreation [main] - Originate Loan resolution is selected
+06-09-2021-09:13:02.675 INFO c.q.t.LoanCreation [main] - Leadmanagement completed
+06-09-2021-09:13:18.209 INFO c.q.t.TaskRelatedAction [main] - Loan application workbench is selected
+06-09-2021-09:17:31.111 WARN c.q.t.Login [main] - username entered as $loanadmin@wesley
+06-09-2021-09:17:31.418 DEBUG c.q.t.Login [main] - password entered as Gallagher01!
+06-09-2021-09:17:31.700 FATAL c.q.t.Login [main] - login button clicked
+06-09-2021-09:17:34.058 ERROR c.q.t.Login [main] - login successfull
+06-09-2021-09:17:53.300 ERROR c.q.t.LoanCreation [main] - Create button is clicked and retail loan is selected
+06-09-2021-09:18:09.142 INFO c.q.t.LoanCreation [main] - Originate Loan resolution is selected
+06-09-2021-09:18:19.771 INFO c.q.t.LoanCreation [main] - Leadmanagement completed
+06-09-2021-09:35:25.363 WARN c.q.t.Login [main] - username entered as $loanadmin@wesley
+06-09-2021-09:35:25.636 DEBUG c.q.t.Login [main] - password entered as Gallagher01!
+06-09-2021-09:35:25.928 FATAL c.q.t.Login [main] - login button clicked
+06-09-2021-09:35:28.640 ERROR c.q.t.Login [main] - login successfull
+06-09-2021-09:35:43.927 ERROR c.q.t.LoanCreation [main] - Create button is clicked and retail loan is selected
+06-09-2021-09:35:59.938 INFO c.q.t.LoanCreation [main] - Originate Loan resolution is selected
+06-09-2021-09:36:10.610 INFO c.q.t.LoanCreation [main] - Leadmanagement completed
+06-09-2021-09:39:41.547 WARN c.q.t.Login [main] - username entered as $loanadmin@wesley
+06-09-2021-09:39:41.825 DEBUG c.q.t.Login [main] - password entered as Gallagher01!
+06-09-2021-09:39:42.131 FATAL c.q.t.Login [main] - login button clicked
+06-09-2021-09:39:44.949 ERROR c.q.t.Login [main] - login successfull
+06-09-2021-09:40:05.470 ERROR c.q.t.LoanCreation [main] - Create button is clicked and retail loan is selected
+06-09-2021-09:40:21.277 INFO c.q.t.LoanCreation [main] - Originate Loan resolution is selected
+06-09-2021-09:40:31.954 INFO c.q.t.LoanCreation [main] - Leadmanagement completed
+06-09-2021-09:40:49.194 INFO c.q.t.TaskRelatedAction [main] - Loan application workbench is selected
