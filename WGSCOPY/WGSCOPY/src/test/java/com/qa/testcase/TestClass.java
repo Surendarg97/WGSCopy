@@ -1,6 +1,9 @@
 package com.qa.testcase;
 
+import components.Base;
 import components.Configuration;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -21,13 +24,19 @@ enum EnumTest{
 }
 
 @Configuration
-public class TestClass {
+public class TestClass extends Base {
 
     public static List<Integer> test=new ArrayList<>();
     public static EnumTest callusingmethod=EnumTest.FIRSTFRAME;
 
 
     public static void main(String args[]){
+
+        JavascriptExecutor js= (JavascriptExecutor)getDriver();
+
+        new ChromeDriver();
+
+        getDriver().getTitle();
 
         EnumTest enumTest=EnumTest.FIRSTFRAME;
         System.out.println(enumTest.name().toString());

@@ -10,10 +10,12 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import utilities.FilloReader;
 
+import java.io.IOException;
+
 public class Login extends Base {
 
     @Test(dataProvider="loginDetails")
-    public void login(String userName, String passWord, String securityRole) throws InterruptedException {
+    public void login(String userName, String passWord, String securityRole) throws InterruptedException, IOException {
         Logger log= LogManager.getLogger(this.getClass().getName());
         ReportManager.extentTestNode.assignAuthor("Surendar").assignDevice("Personal").assignCategory("Learning");
         LoginLandingPage landingPage=new LoginLandingPage(getDriver());
@@ -29,6 +31,7 @@ public class Login extends Base {
         landingPage.selectSecurityGroup(securityRole);
         ReportManager.extentTestNode.pass("login successfull");
         log.error("login successfull");
+        takeScreenshot();
 
        // ReportManager.flushingExtentReport();
 

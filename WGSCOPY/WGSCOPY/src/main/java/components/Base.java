@@ -1,5 +1,7 @@
 package components;
 
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -8,7 +10,11 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.lang.reflect.Method;
+import java.util.Base64;
 import java.util.concurrent.TimeUnit;
 
 
@@ -28,7 +34,8 @@ public class Base {
     public void initDriver(){
         browser=configuration.browser();
         url=configuration.url();
-        System.setProperty("webdriver.chrome.driver","E:\\LocalGitHubRepository\\IntelliJIDEAProjects\\WGSCOPY\\WGSCOPY\\src\\main\\resources\\Drivers\\chromedriver.exe");
+        /*System.setProperty("webdriver.chrome.driver","E:\\LocalGitHubRepository\\IntelliJIDEAProjects\\WGSCOPY\\WGSCOPY\\src\\main\\resources\\Drivers\\chromedriver.exe");*/
+        DriverManager.initateDriver(browser);
         driver=new ChromeDriver();
         driver.manage().window().maximize();
         driver.get(url);
@@ -66,6 +73,19 @@ public class Base {
     @AfterSuite
     public void quitDriver(){
        /* getDriver().quit();*/
+    }
+
+    public static void takeScreenshot() throws IOException {
+
+        TakesScreenshot takesScreenshot= (TakesScreenshot) getDriver();
+        /*File file=takesScreenshot.getScreenshotAs(OutputType.FILE);
+        FileUtils.copyFile(file,new File("./src/Screenshots/testscreenshot.png"));*/
+
+        String file=takesScreenshot.getScreenshotAs(OutputType.BASE64);
+        byte[] byteArray= Base64.getDecoder().decode(file);
+        FileOutputStream fos=new FileOutputStream(new File("./src/Screenshots/testscreenshot.png"));
+        fos.write(byteArray);
+        fos.close();
     }
 
     }

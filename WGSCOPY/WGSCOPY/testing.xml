@@ -8,9 +8,9 @@
     <test name="LoginTest">
         <classes>
             <class name="com.qa.testcase.Login" />
-            <class name="com.qa.testcase.LoanCreation" />
+            <!--class name="com.qa.testcase.LoanCreation" />
             <class name="com.qa.testcase.TaskRelatedAction" />
-            <class name="com.qa.testcase.PartyGateway" />
+            <class name="com.qa.testcase.PartyGateway" />-->
         </classes>
     </test>
 </suite>
