@@ -522,3 +522,5 @@
 06-10-2021-22:07:18.079 DEBUG c.q.t.Login [main] - password entered as Gallagher01!
 06-10-2021-22:07:18.340 FATAL c.q.t.Login [main] - login button clicked
 06-10-2021-22:07:20.883 ERROR c.q.t.Login [main] - login successfull
+06-13-2021-13:16:20.411 INFO c.q.t.TaskRelatedAction [main] - Loan application workbench is selected
+06-13-2021-13:26:12.790 INFO c.q.t.TaskRelatedAction [main] - Loan application workbench is selected

@@ -6,12 +6,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
-import org.openqa.selenium.support.PageFactory;
 
 public class LeadManagementPage extends Base {
 
     public LeadManagementPage(WebDriver driver){
-        PageFactory.initElements(driver,this);
+        super(driver);
     }
     @FindBy(how= How.ID, using="GFXTaskFrame")
     private WebElement GFXTaskFrame;

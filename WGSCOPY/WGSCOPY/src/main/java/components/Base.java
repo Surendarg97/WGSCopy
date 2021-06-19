@@ -4,6 +4,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
@@ -28,7 +29,11 @@ public class Base {
     public static Configuration configuration=ConfigClass.configuration;
 
 
+    public Base(WebDriver driver){
+        PageFactory.initElements(driver,this);
+    }
 
+    public Base(){}
 
     @BeforeTest
     public void initDriver(){
