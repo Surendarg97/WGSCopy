@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary"></span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Jun 13, 2021 01:25:33 PM</span></a>
+<a href="#"><span class="badge badge-primary">Jun 28, 2021 09:09:35 AM</span></a>
 </li>
 </ul>
 </div>
@@ -81,6 +81,7 @@
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
 <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
 <a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
 <div class="dropdown-divider"></div>
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
@@ -107,25 +108,25 @@
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
-        <li class="test-item"  status="fail" test-id="1"
+        <li class="test-item"  status="pass" test-id="1"
           author=""
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">SELECTWORKBENCH</p>
+            <p class="name">LOGIN</p>
             <p class="text-sm">
-              <span>13:25:36 PM</span> / <span>00:01:16:909</span>
-              <span class="badge fail-bg log float-right">Fail</span>
+              <span>09:09:39 AM</span> / <span>00:00:11:712</span>
+              <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">SELECTWORKBENCH</h5>
-<span class='badge badge-success'>06.13.2021 13:25:36</span>
-<span class='badge badge-danger'>06.13.2021 13:26:53</span>
-<span class='badge badge-default'>00:01:16:909</span>
+<h5 class="test-status text-pass">LOGIN</h5>
+<span class='badge badge-success'>06.28.2021 09:09:39</span>
+<span class='badge badge-danger'>06.28.2021 09:09:51</span>
+<span class='badge badge-default'>00:00:11:712</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 </div>
 </div>
@@ -133,10 +134,10 @@
       <div class="card">
         <div class="card-header">
           <div class="card-title">
-            <div class="node" id="2">selectWorkBench</div>
-            <div class="node-status float-right"><span class="badge fail-bg log ">Fail</span></div>
+            <div class="node" id="2">login</div>
+            <div class="node-status float-right"><span class="badge pass-bg log ">Pass</span></div>
             <div class="node-time">
-              <span class='badge badge-default'>31:16:900</span>
+              <span class='badge badge-default'>30:11:681</span>
             </div>
             <div class="node-attr">
 <span class="badge badge-pill badge-default">Surendar</span>
@@ -144,23 +145,37 @@
 <span class="badge badge-pill badge-default">Personal</span>            </div>
           </div>
         </div>
-        <div class="">
+        <div class="collapse">
           <div class="card-body">
 <table class="table table-sm">
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>1:26:12 PM</td>
+        <td>9:09:41 AM</td>
         <td>
-          Loan application workbench is selected
+          username entered as $loanadmin@wesley
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>1:26:53 PM</td>
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:09:42 AM</td>
         <td>
-          Expected condition failed: waiting for frame to be available: Proxy element for: DefaultElementLocator 'By.id: GFXDHPageFrame' (tried for 15 second(s) with 500 milliseconds interval)
+          password entered as Gallagher01!
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:09:42 AM</td>
+        <td>
+          login button clicked
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:09:51 AM</td>
+        <td>
+          login successfull
         </td>
       </tr>
   </tbody>
@@ -177,9 +192,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">ENTERINGBORROWERDETAILS</p>
+            <p class="name">CREATERETAILLOAN</p>
             <p class="text-sm">
-              <span>13:26:54 PM</span> / <span>00:00:20:192</span>
+              <span>09:09:53 AM</span> / <span>00:00:40:722</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -187,10 +202,10 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">ENTERINGBORROWERDETAILS</h5>
-<span class='badge badge-success'>06.13.2021 13:26:54</span>
-<span class='badge badge-danger'>06.13.2021 13:27:14</span>
-<span class='badge badge-default'>00:00:20:192</span>
+<h5 class="test-status text-fail">CREATERETAILLOAN</h5>
+<span class='badge badge-success'>06.28.2021 09:09:53</span>
+<span class='badge badge-danger'>06.28.2021 09:10:33</span>
+<span class='badge badge-default'>00:00:40:722</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
 </div>
 </div>
@@ -198,10 +213,10 @@
       <div class="card">
         <div class="card-header">
           <div class="card-title">
-            <div class="node" id="4">enteringBorrowerDetails</div>
+            <div class="node" id="4">createRetailLoan</div>
             <div class="node-status float-right"><span class="badge fail-bg log ">Fail</span></div>
             <div class="node-time">
-              <span class='badge badge-default'>30:20:192</span>
+              <span class='badge badge-default'>30:40:722</span>
             </div>
             <div class="node-attr">
 <span class="badge badge-pill badge-default">Surendar</span>
@@ -216,16 +231,139 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>1:27:14 PM</td>
+        <td>9:10:33 AM</td>
+        <td>
+          Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //div[@id='UD_ContainerTree']//div[@id='udPluginControlContainer']/div/div' (tried for 15 second(s) with 500 milliseconds interval)
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">SELECTWORKBENCH</p>
+            <p class="text-sm">
+              <span>09:10:34 AM</span> / <span>00:01:15:913</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">SELECTWORKBENCH</h5>
+<span class='badge badge-success'>06.28.2021 09:10:34</span>
+<span class='badge badge-danger'>06.28.2021 09:11:50</span>
+<span class='badge badge-default'>00:01:15:913</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+</div>
+</div>
+</div>  <div class="mt-4">  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <div class="node" id="6">selectWorkBench</div>
+            <div class="node-status float-right"><span class="badge fail-bg log ">Fail</span></div>
+            <div class="node-time">
+              <span class='badge badge-default'>31:15:913</span>
+            </div>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">Surendar</span>
+<span class="badge badge-pill badge-default">Learning</span>
+<span class="badge badge-pill badge-default">Personal</span>            </div>
+          </div>
+        </div>
+        <div class="">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:11:09 AM</td>
+        <td>
+          Loan application workbench is selected
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:11:50 AM</td>
+        <td>
+          Expected condition failed: waiting for frame to be available: Proxy element for: DefaultElementLocator 'By.id: GFXDHPageFrame' (tried for 15 second(s) with 500 milliseconds interval)
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="7"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">ENTERINGBORROWERDETAILS</p>
+            <p class="text-sm">
+              <span>09:11:50 AM</span> / <span>00:00:20:151</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">ENTERINGBORROWERDETAILS</h5>
+<span class='badge badge-success'>06.28.2021 09:11:50</span>
+<span class='badge badge-danger'>06.28.2021 09:12:10</span>
+<span class='badge badge-default'>00:00:20:151</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+</div>
+</div>
+</div>  <div class="mt-4">  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <div class="node" id="8">enteringBorrowerDetails</div>
+            <div class="node-status float-right"><span class="badge fail-bg log ">Fail</span></div>
+            <div class="node-time">
+              <span class='badge badge-default'>30:20:151</span>
+            </div>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">Surendar</span>
+<span class="badge badge-pill badge-default">Learning</span>
+<span class="badge badge-pill badge-default">Personal</span>            </div>
+          </div>
+        </div>
+        <div class="">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:12:10 AM</td>
         <td>
           no such element: Unable to locate element: {"method":"css selector","selector":"#GFXDHPageFrame"}
-  (Session info: chrome=91.0.4472.77)
+  (Session info: chrome=91.0.4472.114)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SURENDAR', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.6'
+System info: host: 'SURENDAR', ip: '192.168.120.162', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.6'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\SUREND~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62605}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 22b9225550b697ca678b549f60a21970
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\SUREND~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58357}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 139cb5e6ed272952b3cff7c4a7c74866
 *** Element info: {Using=id, value=GFXDHPageFrame}
         </td>
       </tr>
@@ -258,15 +396,17 @@ Session ID: 22b9225550b697ca678b549f60a21970
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log badge-danger'>2</span>
+<span class='badge log pass-bg'>1</span>
+<span class='badge log badge-danger'>3</span>
 </span>
 <p class="name">Learning</p>
-<p class="duration text-sm">2 tests</p>
+<p class="duration text-sm">4 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
 <h4>Learning</h4>
-<span status="fail" class='badge log badge-danger'>2 failed</span>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+<span status="fail" class='badge log badge-danger'>3 failed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -277,11 +417,31 @@ Session ID: 22b9225550b697ca678b549f60a21970
 </tr>
 </thead>
 <tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:09:39 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>login</a>
+<div class="">
+<span class="badge badge-default">LOGIN.login</span>
+</div>
+</td>
+</tr>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>13:25:36 PM</td>
+<td>09:09:53 AM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='2'>selectWorkBench</a>
+<a href="#" class="linked" test-id='3' id='4'>createRetailLoan</a>
+<div class="">
+<span class="badge badge-default">CREATERETAILLOAN.createRetailLoan</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>09:10:34 AM</td>
+<td>
+<a href="#" class="linked" test-id='5' id='6'>selectWorkBench</a>
 <div class="">
 <span class="badge badge-default">SELECTWORKBENCH.selectWorkBench</span>
 </div>
@@ -289,9 +449,9 @@ Session ID: 22b9225550b697ca678b549f60a21970
 </tr>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>13:26:54 PM</td>
+<td>09:11:50 AM</td>
 <td>
-<a href="#" class="linked" test-id='3' id='4'>enteringBorrowerDetails</a>
+<a href="#" class="linked" test-id='7' id='8'>enteringBorrowerDetails</a>
 <div class="">
 <span class="badge badge-default">ENTERINGBORROWERDETAILS.enteringBorrowerDetails</span>
 </div>
@@ -320,15 +480,17 @@ Session ID: 22b9225550b697ca678b549f60a21970
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log badge-danger'>2</span>
+<span class='badge log pass-bg'>1</span>
+<span class='badge log badge-danger'>3</span>
 </span>
 <p class="name">Personal</p>
-<p class="duration text-sm">2 tests</p>
+<p class="duration text-sm">4 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
 <h4>Personal</h4>
-<span status="fail" class='badge log badge-danger'>2 failed</span>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+<span status="fail" class='badge log badge-danger'>3 failed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -339,11 +501,31 @@ Session ID: 22b9225550b697ca678b549f60a21970
 </tr>
 </thead>
 <tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:09:39 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>login</a>
+<div class="">
+<span class="badge badge-default">LOGIN.login</span>
+</div>
+</td>
+</tr>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>13:25:36 PM</td>
+<td>09:09:53 AM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='2'>selectWorkBench</a>
+<a href="#" class="linked" test-id='3' id='4'>createRetailLoan</a>
+<div class="">
+<span class="badge badge-default">CREATERETAILLOAN.createRetailLoan</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>09:10:34 AM</td>
+<td>
+<a href="#" class="linked" test-id='5' id='6'>selectWorkBench</a>
 <div class="">
 <span class="badge badge-default">SELECTWORKBENCH.selectWorkBench</span>
 </div>
@@ -351,9 +533,9 @@ Session ID: 22b9225550b697ca678b549f60a21970
 </tr>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>13:26:54 PM</td>
+<td>09:11:50 AM</td>
 <td>
-<a href="#" class="linked" test-id='3' id='4'>enteringBorrowerDetails</a>
+<a href="#" class="linked" test-id='7' id='8'>enteringBorrowerDetails</a>
 <div class="">
 <span class="badge badge-default">ENTERINGBORROWERDETAILS.enteringBorrowerDetails</span>
 </div>
@@ -382,15 +564,17 @@ Session ID: 22b9225550b697ca678b549f60a21970
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log badge-danger'>2</span>
+<span class='badge log pass-bg'>1</span>
+<span class='badge log badge-danger'>3</span>
 </span>
 <p class="name">Surendar</p>
-<p class="duration text-sm">2 tests</p>
+<p class="duration text-sm">4 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
 <h4>Surendar</h4>
-<span status="fail" class='badge log badge-danger'>2 failed</span>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+<span status="fail" class='badge log badge-danger'>3 failed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -401,11 +585,31 @@ Session ID: 22b9225550b697ca678b549f60a21970
 </tr>
 </thead>
 <tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:09:39 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>login</a>
+<div class="">
+<span class="badge badge-default">LOGIN.login</span>
+</div>
+</td>
+</tr>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>13:25:36 PM</td>
+<td>09:09:53 AM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='2'>selectWorkBench</a>
+<a href="#" class="linked" test-id='3' id='4'>createRetailLoan</a>
+<div class="">
+<span class="badge badge-default">CREATERETAILLOAN.createRetailLoan</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>09:10:34 AM</td>
+<td>
+<a href="#" class="linked" test-id='5' id='6'>selectWorkBench</a>
 <div class="">
 <span class="badge badge-default">SELECTWORKBENCH.selectWorkBench</span>
 </div>
@@ -413,9 +617,9 @@ Session ID: 22b9225550b697ca678b549f60a21970
 </tr>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>13:26:54 PM</td>
+<td>09:11:50 AM</td>
 <td>
-<a href="#" class="linked" test-id='3' id='4'>enteringBorrowerDetails</a>
+<a href="#" class="linked" test-id='7' id='8'>enteringBorrowerDetails</a>
 <div class="">
 <span class="badge badge-default">ENTERINGBORROWERDETAILS.enteringBorrowerDetails</span>
 </div>
@@ -438,25 +642,25 @@ Session ID: 22b9225550b697ca678b549f60a21970
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Jun 13, 2021 01:25:33 PM</h3>
+<h3>Jun 28, 2021 09:09:35 AM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Jun 13, 2021 01:27:14 PM</h3>
+<h3>Jun 28, 2021 09:12:10 AM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Tests Passed</p>
-<h3>0</h3>
+<h3>1</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Tests Failed</p>
-<h3>2</h3>
+<h3>3</h3>
 </div></div>
 </div>
 </div>
@@ -472,12 +676,12 @@ Session ID: 22b9225550b697ca678b549f60a21970
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='0%'>
-<b>0</b> tests passed
+<div><small data-tooltip='25%'>
+<b>1</b> tests passed
 </small>
 </div>
 <div>
-<small data-tooltip='100%'><b>2</b> tests failed,
+<small data-tooltip='75%'><b>3</b> tests failed,
 <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
@@ -495,9 +699,9 @@ Session ID: 22b9225550b697ca678b549f60a21970
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='0%'><b>0</b> steps passed</small></div>
+<div><small data-tooltip='25%'><b>1</b> steps passed</small></div>
 <div>
-<small data-tooltip='100%'><b>2</b> steps failed,
+<small data-tooltip='75%'><b>3</b> steps failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
@@ -515,10 +719,10 @@ Session ID: 22b9225550b697ca678b549f60a21970
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='0%'><b>0</b> events passed</small></div>
+<div><small data-tooltip='12%'><b>1</b> events passed</small></div>
 <div>
-<small data-tooltip='66%'><b>2</b> events failed,
-<b data-tooltip='%'>1</b> others
+<small data-tooltip='37%'><b>3</b> events failed,
+<b data-tooltip='%'>4</b> others
 </small>
 </div>
 </div>
@@ -534,7 +738,7 @@ Session ID: 22b9225550b697ca678b549f60a21970
 </div></div>
 <script>
 var timeline = {
-"SELECTWORKBENCH":76.909,"ENTERINGBORROWERDETAILS":20.192
+"LOGIN":11.712,"CREATERETAILLOAN":40.722,"SELECTWORKBENCH":75.913,"ENTERINGBORROWERDETAILS":20.151
 };
 </script>
 <div class="row">
@@ -546,11 +750,11 @@ var timeline = {
 <tbody>
 <tr>
 <td>Surendar</td>
+<td>1</td>
+<td>3</td>
 <td>0</td>
-<td>2</td>
 <td>0</td>
-<td>0</td>
-<td>0%</td>
+<td>25%</td>
 </tr>
 </tbody>
 </table></div>
@@ -563,11 +767,11 @@ var timeline = {
 <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
 <tr>
 <td>Learning</td>
+<td>1</td>
+<td>3</td>
 <td>0</td>
-<td>2</td>
 <td>0</td>
-<td>0</td>
-<td>0%</td>
+<td>25%</td>
 </tr>
 </tbody>
 </table></div>
@@ -581,11 +785,11 @@ var timeline = {
 <tbody>
 <tr>
 <td>Personal</td>
+<td>1</td>
+<td>3</td>
 <td>0</td>
-<td>2</td>
 <td>0</td>
-<td>0</td>
-<td>0%</td>
+<td>25%</td>
 </tr>
 </tbody>
 </table></div>
@@ -596,13 +800,13 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 0,
-failParent: 2,
+passParent: 1,
+failParent: 3,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
-passChild: 0,
-failChild: 2,
+passChild: 1,
+failChild: 3,
 warningChild: 0,
 skipChild: 0,
 infoChild: 0,
@@ -613,11 +817,11 @@ warningGrandChild: 0,
 skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
-passEvents: 0,
-failEvents: 2,
+passEvents: 1,
+failEvents: 3,
 warningEvents: 0,
 skipEvents: 0,
-infoEvents: 1
+infoEvents: 4
 };
 </script>        </div>
       </div>

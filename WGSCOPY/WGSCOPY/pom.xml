@@ -43,8 +43,20 @@
       <artifactId>poi-ooxml</artifactId>
       <version>5.0.0</version>
     </dependency>
-      <!-- https://mvnrepository.com/artifact/org.apache.pdfbox/fontbox -->
 
+      <!-- https://mvnrepository.com/artifact/org.apache.pdfbox/fontbox -->
+    <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>8.0.25</version>
+    </dependency>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.20</version>
+      <scope>provided</scope>
+    </dependency>
     <dependency>
       <groupId>org.apache.pdfbox</groupId>
       <artifactId>pdfbox</artifactId>
@@ -61,8 +73,9 @@
     <dependency>
       <groupId>com.codoid.products</groupId>
       <artifactId>fillo</artifactId>
-      <version>1.18</version>
+      <version>1.21</version>
     </dependency>
+
     <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
     <dependency>
       <groupId>com.aventstack</groupId>
