@@ -535,3 +535,11 @@
 06-28-2021-09:09:42.299 FATAL c.q.t.Login [main] - login button clicked
 06-28-2021-09:09:51.283 ERROR c.q.t.Login [main] - login successfull
 06-28-2021-09:11:09.365 INFO c.q.t.TaskRelatedAction [main] - Loan application workbench is selected
+06-29-2021-07:57:03.537 WARN c.q.t.Login [main] - username entered as $loanadmin@wesley
+06-29-2021-07:57:03.785 DEBUG c.q.t.Login [main] - password entered as Gallagher01!
+06-29-2021-07:57:04.047 FATAL c.q.t.Login [main] - login button clicked
+06-29-2021-07:57:06.506 ERROR c.q.t.Login [main] - login successfull
+06-29-2021-07:59:57.507 WARN c.q.t.Login [main] - username entered as $loanadmin@wesley
+06-29-2021-07:59:57.767 DEBUG c.q.t.Login [main] - password entered as Gallagher01!
+06-29-2021-07:59:58.035 FATAL c.q.t.Login [main] - login button clicked
+06-29-2021-08:01:30.964 INFO c.q.t.TaskRelatedAction [main] - Loan application workbench is selected
